@@ -16,41 +16,82 @@ header h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.lor{
-    height: 150px;
-    background: #ffda00;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.lor p{
-    color: #17191e;
-    font-size: 13pt;
-    padding-top: 50px;
-    text-align: center;
+header p{
+    margin-top: 15px;
+    margin-left: 400px;
+    color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+/*a_work*/
+
+.a_work{
+    width: 600px;
+    height: 250px;
+    background-color: #f5d729;
+}
+
+.a_work h1{
+    padding-left: 30px;
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a_work p{
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*More*/
+
+.more{
+    height: 150px;
+    background-color: #17191e;
+}
+
+.more{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.more h1 {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ffda00;
+    width: 150px;
+   }
+
+
+/*blokp*/
+
+.blokp{
+    height: 100px;
+    background-color: #ffffff;
+}
+
 
 /*layer*/
   
 .layer{
-    margin: #f4f4f4;
-    margin-top: 50px;
+    background: #17191e;
+    margin-left: 130px;
   }
   
   
   .layer1{
-    
-    color: #555555;
+    color: #ffffff;
     margin: 0px 0px 30px;
     padding: 60px 20px 30px;
     margin-left: 150px;
     float: left;
     font-size: 14px;
     text-align: center;
-    border:outset #f4f4f4; /* Параметры границы */
-    background: #ffffff;
     font-weight: normal;
+    background-color: #17191e;
+
     
   }
   
@@ -67,22 +108,20 @@ header h1{
   }
   
   .layer2{
-    color: #555555;
+    color: #ffffff;
     margin: 0px 0px 30px;
     padding: 60px 20px 30px;
     margin-left: 120px;
     float: left;
     font-size: 14px;
     text-align: center;
-    border:outset #f4f4f4; /* Параметры границы */
-    background: #ffffff;
     font-weight: normal;
+    background-color: #17191e;
   }
   
   .layer2 h1{
     font-weight: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
     
   }
   
@@ -91,41 +130,18 @@ header h1{
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
-  .layer3{
-    color: #555555;
-    margin: 0px 0px 30px;
-    padding: 60px 20px 30px;
-    margin-left: 120px;
-    float: left;
-    font-size: 14px;
-    text-align: center;
-    border:outset #f4f4f4; /* Параметры границы */
-    background: #ffffff;
-    font-weight: normal;
-  }
   
-  .layer3 h1{
-    font-weight: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-  }
-  
-  .layer3 p{
-     margin-top: 15px;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-  }
   
   .layer4{
-    color: #555555;
+    color: aliceblue    ;
     margin: 0px 0px 30px;
     padding: 60px 20px 30px;
     margin-left: 120px;
     float: left;
     font-size: 14px;
     text-align: center;
-    border:outset #f4f4f4; /* Параметры границы */
-    background: #ffffff;
+
+    background: #17191e;
     font-weight: normal;
   }
   
@@ -140,3 +156,7 @@ header h1{
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
+  .greated{
+    background: #17191e;
+    height: 340px;
+  }
