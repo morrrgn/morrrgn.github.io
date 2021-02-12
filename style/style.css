@@ -55,7 +55,7 @@ header h1{
 
 .details{
   background-color: #FFFFFF;
-  height: 500px;
+  height: 400px;
   width: 500px;
 }
 
@@ -73,12 +73,132 @@ header h1{
   font-size: 13pt;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 20px;
+  text-align: center;
 
 }
 
+
+.klients{
+  margin-top: 300px;
+}
+
+.klients2{
+  text-align: center;
+  margin-top: 30px;
+ 
+}
+
+.klients h1{
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin-top: 30px;
+ text-align: center;
+}
+
+/*about_shp*/
+
+.about_shp{
+  background-color: #F2F2F2;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 500px;
+  height: 100px;
+  font-size: 13pt;
+  padding-top: 30px;
+  
+}
+
+.hr {
+	margin: 30px 0;
+	padding: 30px;
+	height: 0;
+	border: none;
+  border-top: 1px solid #333;
+  
+}
+
+
+.shiping{
+  height: 300px;
+  width: 500px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.shiping img{
+  margin-top: 30px;
+}
+
+.shiping h1{
+  text-align: center;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 30px;
+  font-size: 18pt;
+}
+
+.shiping p{
+  margin-top: 20px;
+  color: #888888;
+  text-align: center;
+  font-size: 14pt;
+  
+}
+
+/*shp 2*/
+
+.shiping2{
+  height: 250px;
+  width: 500px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.shiping2 h1{
+  text-align: center;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 30px;
+  font-size: 18pt;
+}
+
+.shiping2 p{
+  margin-top: 20px;
+  color: #888888;
+  text-align: center;
+  font-size: 14pt;
+}
+
+
+/*shiping3*/
+
+
+.shiping3{
+  height: 200px;
+  width: 500px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.shiping3 h1{
+  text-align: center;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 30px;
+  font-size: 18pt;
+}
+
+.shiping3 p{
+  margin-top: 20px;
+  color: #888888;
+  text-align: center;
+  font-size: 14pt;
+}
+
+
 .video{
-  height: 700px;
-  background-color: #FFFFFF;
+  height: 150px;
+  background-color: #FFFFFF ;
   width: 500px;
 }
 
@@ -86,7 +206,53 @@ header h1{
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  margin-top: 300px;
-  height: 80px;
+  margin-top: 30px;
+  height: 30px;
   font-size: 30pt;
+}
+
+.video hr{
+  
+	margin: 30px 0;
+	padding: 30px;
+	height: 0;
+	border: none;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+}
+
+
+/*footer*/
+
+footer{
+
+  margin-top: 300px;
+  background-color: #CACFD2;
+  height: 250px;
+  width: 500px;
+}
+
+footer h1{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+footer h2{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 17px;
+
+}
+
+footer p{
+  font-size: 17px;
+  padding-top: 80px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
