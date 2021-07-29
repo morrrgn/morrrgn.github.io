@@ -1,330 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Dart Service Manager</title>
+.portfolio-nav {
+    width: 100%;
+    height: 40px;
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    position: fixed;
+    bottom: 0;
+}
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,400i,700&display=swap" rel="stylesheet">
-    </head>
-    <body>
+html {
+    font-size: 12px;
+}
 
-        <header class="home-header">
-            <div class="menu">
-                <div class="site-title">
-                    <img class="logo" src="img/logo.svg">
-                    <p class="small-line">Dart<br><b>service manager</b></p>
-                </div>
-                <div class="nav">
-                    <a href="#">Home</a>
-                    <a href="#">Service</a>
-                    <a href="#">Extetension</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Help</a>
-                </div>
-                <a class="btn" href="#">sign up</a>
-            </div>
-            <div class="home-header-main">
-                <div>
-                    <h1>lorem Ipsum Dolor sit amet</h1>
-                    <p class="home-header-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="#" class="big-btn blue">Buy Now</a>
-                    <a href="#" class="big-btn white">Try For Free</a>
-                </div>
-                <div class="home-header-video">
-                   <a href="#" class="big-btn play blue">
-                       <img src="img/play_arrow.png" alt="play_arrow">
-                   </a>
-                   <p>Watch the video</p>
-                </div>
-            </div>
-        </header>
-        <main>
-            <section>
-                <h2>Easy & Useful<br><span class="small-grey-h">Project Management Tool</span></h2>
-                <p class="section-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                </p>
-                <div class="hor-container">
-                    <div class="hor-item">
-                        <img src="img/item1.png">
-                        <strong>Title Goes Here</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="hor-item">
-                        <img id="hor-item-center" src="img/item2.png">
-                        <strong>Title Goes Here</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="hor-item">
-                        <img src="img/item3.png">
-                        <strong>Title Goes Here</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <a href="#" class="big-btn green no-margin">Get started</a>
-            </section>
-            <div class="advantage-container">
-                <div class="advantage-block advantage-l-blue">
-                    <img src="img/business.png">
-                    <p>12000+<br>Business</p>
-                </div>
-                <div class="advantage-block advantage-blue">
-                    <img src="img/downloads.png">
-                    <p>6000+<br>Downloads</p>
-                </div>
-                <div class="advantage-block advantage-purple">
-                    <img src="img/installs.png">
-                    <p>6000+<br>Free Installs</p>
-                </div>
-                <div class="advantage-block advantage-pink">
-                    <img src="img/users.png">
-                    <p>6000+<br>Pro Users</p>
-                </div>
-            </div>
-            <section>
-                <h2>Services</h2>
-                <p class="section-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                </p>
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    min-width: 83rem;
+}
 
-                <div role="tablist" class="services">
-                    <div class="spoiler card">
-                        <div class="spoiler-head card-header" role="tab" id="sp-1">
-                            <a data-toggle="collapse" href="#spc-1" aria-expanded="true" aria-controls="sp-1">
-                                <div class="flex">
-                                    <img src="img/trending_up.png">
-                                    <p>Statistics</p>
-                                </div>
-                                <img src="img/arrow_drop_down.png">
-                            </a>
-                        </div>
-                        <div id="spc-1" class="collapse show" role="tabpanel" aria-labelledby="sp-1">
-                            <div class="spoiler-body card-body">
-                                <img src="img/service.jpg">
-                                <div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spoiler card">
-                        <div class="spoiler-head card-header" role="tab" id="sp-2">
-                            <a data-toggle="collapse" href="#spc-2" aria-expanded="true" aria-controls="sp-2">
-                                <div class="flex">
-                                    <img src="img/mail.png">
-                                    <p>Inbox</p>
-                                </div>
-                                <img src="img/arrow_drop_down.png">
-                            </a>
-                        </div>
-                        <div id="spc-2" class="collapse" role="tabpanel" aria-labelledby="sp-2">
-                            <div class="spoiler-body card-body">
-                                <img src="img/service.jpg">
-                                <div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spoiler card">
-                        <div class="spoiler-head card-header" role="tab" id="sp-3">
-                            <a data-toggle="collapse" href="#spc-3" aria-expanded="true" aria-controls="sp-3">
-                                <div class="flex">
-                                    <img src="img/group.png">
-                                    <p>Team</p>
-                                </div>
-                                <img src="img/arrow_drop_down.png">
-                            </a>
-                        </div>
-                        <div id="spc-3" class="collapse" role="tabpanel" aria-labelledby="sp-3">
-                            <div class="spoiler-body card-body">
-                                <img src="img/service.jpg">
-                                <div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spoiler card">
-                        <div class="spoiler-head card-header" role="tab" id="sp-4">
-                            <a data-toggle="collapse" href="#spc-4" aria-expanded="true" aria-controls="sp-4">
-                                <div class="flex">
-                                    <img src="img/settings.png">
-                                    <p>Settings</p>
-                                </div>
-                                <img src="img/arrow_drop_down.png">
-                            </a>
-                        </div>
-                        <div id="spc-4" class="collapse" role="tabpanel" aria-labelledby="sp-4">
-                            <div class="spoiler-body card-body">
-                                <img src="img/service.jpg">
-                                <div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spoiler card">
-                        <div class="spoiler-head card-header" role="tab" id="sp-5">
-                            <a data-toggle="collapse" href="#spc-5" aria-expanded="true" aria-controls="sp-5">
-                                <div class="flex">
-                                    <img id="rss-img" src="img/rss_feed.png">
-                                    <p>Feed</p>
-                                </div>
-                                <img src="img/arrow_drop_down.png">
-                            </a>
-                        </div>
-                        <div id="spc-5" class="collapse" role="tabpanel" aria-labelledby="sp-5">
-                            <div class="spoiler-body card-body">
-                                <img src="img/service.jpg">
-                                <div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+b {
+    white-space: 600;
+}
 
-                </div>
-            </section>
-            <div class="comments">
-                <div class="inline-b">
-                    <h2>What our customers have to say about us</h2>
-                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <a href="#" class="big-btn green blue no-margin">Get started</a>
-                </div>
+a {
+     text-decoration: none;
+     color: white;
+     transition: color .15s linear,
+        background-color .15s linear;
+}
 
+a:hover {
+     color: black ;
+     text-decoration: none;
+}
 
-                <div id="com" class="carousel slide comment-zone" data-ride="carousel">
-                    <a class="carousel-control-prev arrow up" href="#com" role="button" data-slide="prev">
-                        <img src="img/keyboard_arrow_up.png">
-                    </a>
-                    <div class="carousel-inner comment-zone-inner" role="listbox">
-                        <div class="carousel-item comment-zone-item active">
-                            <div class="comment">
-                                <img src="img/avatar1.png">
-                                <div>
-                                    <p><strong>John Doe</strong></p>
-                                    <p class="com-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-                                </div>
-                            </div>
-                            <div class="comment">
-                                <img src="img/avatar2.png">
-                                <div>
-                                    <p><strong>Khalessi</strong></p>
-                                    <p class="com-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item comment-zone-item">
-                            <div class="comment">
-                                <img src="img/avatar1.png">
-                                <div>
-                                    <p><strong>John Doe</strong></p>
-                                    <p class="com-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-                                </div>
-                            </div>
-                            <div class="comment">
-                                <img src="img/avatar2.png">
-                                <div>
-                                    <p><strong>Khalessi</strong></p>
-                                    <p class="com-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-next arrow down" href="#com" role="button" data-slide="next">
-                        <img src="img/keyboard_arrow_down.png">
-                    </a>
-                </div>
-            </div>
-            <section>
-                <h2>Our Team</h2>
-                <p class="section-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                </p>
-                <div class="photo-container">
-                    <img src="img/photo1.png">
-                    <img class="photo-active" src="img/photo2.png">
-                    <img src="img/photo3.png">
-                </div>
-                <p><strong>Sophie Turner</strong></p>
-                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                <div class="social-but grey-social">
-                    <a href="#"><img src="img/facebookg.png"></a>
-                    <a href="#"><img src="img/twitterg.png"></a>
-                    <a href="#"><img src="img/ing.png"></a>
-                    <a href="#"><img src="img/socialg.png"></a>
-                    <a href="#"><img src="img/beg.png"></a>
-                </div>
-            </section>
-            <section class="form-section">
-                <h2>Contact Us</h2>
-                <p class="section-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                </p>
-                <form method="POST">
-                    <div class="form-line">
-                        <input name="f-name" value="First Name" type="text">
-                        <input name="l-name" value="Last Name" type="text">
-                    </div>
-                    <div class="form-line">
-                        <input name="email" value="Email" type="text">
-                        <input name="phone" value="Phone" type="text">
-                    </div>
-                    <textarea name="msg" cols="30" rows="10">Message</textarea>
-                    <div class="form-bottom">
-                        <div>
-                            <input name="news" type="checkbox">
-                            <label for="news">subscribe to the newsletter</label>
-                        </div>
-                        <input class="big-btn green padding-btn" type="submit" value="Send">
-                    </div>
-                </form>
-            </section>
-        </main>
-        <footer>
-            <div class="menu">
-                <div class="site-title">
-                    <img class="logo"src="img/logo.svg">
-                    <p class="small-line">Dart<br><b>service manager</b></p>
-                </div>
-                <div class="nav grey-a">
-                    <a href="#">Home</a>
-                    <a href="#">Service</a>
-                    <a href="#">Extetension</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Help</a>
-                </div>
-            </div>
-            <div class="menu margin-top">
-                <div class="about">
-                    <a href="#">Privecy Policy</a>
-                    <img src="img/point.svg">
-                    <a href="#">About Us</a>
-                    <img src="img/point.svg">
-                    <a href="#">About Us</a>
-                </div>
-                <div class="social-but">
-                    <a href="#"><img src="img/facebook.png"></a>
-                    <a href="#"><img src="img/twitter.png"></a>
-                    <a href="#"><img src="img/in.png"></a>
-                    <a href="#"><img src="img/social.png"></a>
-                    <a href="#"><img src="img/be.png"></a>
-                </div>
-            </div>
-        </footer>
+h1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.3rem;
+    text-transform: uppercase;
+    max-width: 30rem;
+}
 
-        <iframe src="/MyPortfolio/portfolio-nav.html" class="portfolio-nav" allowtransparency frameborder="0"><a href="/MyPortfolio">Вернуться к портфолио</a></iframe>
-
-        
-    </body>
-</html>
+h2 {
+    font-size: 3rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+    color: #061e37;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
